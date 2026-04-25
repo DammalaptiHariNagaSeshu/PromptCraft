@@ -1,5 +1,6 @@
 {
-  "buildCommand": "pnpm build",
+  "version": 2,
+  "buildCommand": "pnpm build --filter=@promptcraft/web",
   "outputDirectory": "apps/web/.next",
   "framework": "nextjs"
 }

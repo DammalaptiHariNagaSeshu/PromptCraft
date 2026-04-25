@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
+    "vercel-build": "turbo build --filter=@promptcraft/web",
     "lint": "turbo lint",
     "clean": "turbo clean"
   },
